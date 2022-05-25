@@ -1,0 +1,675 @@
+/* css property for the whole body */
+
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    background-color: #FFFFFF;
+    /* border: 1px solid blue; */
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-around;
+    /* width: 100px; height: 41px; */
+    /* border: 1px solid green; */
+}
+
+.nav-item-lists {
+    /* height: 100px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 130%;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+.nav-item-lists .home a {
+    color: #091E80;
+}
+
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 104px;
+    height: 41px;
+    /* Primary/7 */
+    border: 2px solid #0C29B0;
+    filter: drop-shadow(-1px 2px 2px #091E80);
+    border-radius: 40px;
+    /* border: 1px solid red; */
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* css property fo the navbat button */
+
+
+/* css property for the 2462 */
+
+.second-wrapper {
+    position: relative;
+    height: 815px;
+    left: 0px;
+    background: linear-gradient(111.08deg, #091E80 1.49%, #3254F1 96.65%);
+    border-radius: 45px 45px 300px 45px;
+    /* border: 1px solid yellow; */
+}
+
+.vector-7 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: -60px;
+    top: -100px;
+    /* background: linear-gradient(210deg, rgba(74, 94, 145, 0.4) 0%, rgba(196, 196, 196, 0) 100%); */
+    border: 40px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+}
+
+.ellipse719 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 373px;
+    top: 80px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.153) 0%, rgba(214, 239, 248, 0) 100%);
+}
+
+.ellipse725 {
+    /* Ellipse 725 */
+    position: absolute;
+    width: 125px;
+    height: 116px;
+    left: 734px;
+    top: 120px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.255) 0%, rgba(214, 239, 248, 0) 100%);
+}
+
+.ellipse720 {
+    /* Ellipse 720 */
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 118px;
+    top: 730px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.255) 0%, rgba(214, 239, 248, 0) 100%);
+}
+
+.ellipse726 {
+    /* Ellipse 725 */
+    position: absolute;
+    width: 143px;
+    height: 139px;
+    left: 559px;
+    top: 570px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(47, 118, 224, 0.2) 0%, rgba(45, 94, 109, 0) 100%);
+}
+
+.ellipse723 {
+    /* Ellipse 723 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 115px;
+    height: 107px;
+    left: 960px;
+    top: 550px;
+    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.05);
+}
+
+.ellipse23 {
+    position: absolute;
+    width: 170px;
+    height: 175px;
+    left: 1100px;
+    top: 300px;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.051) 0%, rgba(214, 239, 248, 0) 100%);
+    border-radius: 50%;
+}
+
+.ellipse24 {
+    /* Ellipse 24 */
+    position: absolute;
+    width: 54px;
+    height: 55px;
+    left: 1380px;
+    top: 150px;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.255) 0%, rgba(214, 239, 248, 0) 100%);
+    border-radius: 50%;
+}
+
+.ellipse2526 {
+    /* Ellipse 25 */
+    position: absolute;
+    width: 125px;
+    height: 116px;
+    left: 1450px;
+    top: 50px;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.255) 0%, rgba(214, 239, 248, 0) 100%);
+    border-radius: 50%;
+}
+
+.ellipse29 {
+    /* Ellipse 29 */
+    position: absolute;
+    width: 319px;
+    height: 319px;
+    left: -160px;
+    top: 300.5px;
+    background: linear-gradient(180deg, rgba(214, 239, 248, 0.153) -5.49%, rgba(214, 239, 248, 0) 94.51%);
+    border-radius: 50%;
+}
+
+.landingpage-image {
+    position: absolute;
+    left: 890px;
+    top: 5px;
+    /* border: 1px solid green; */
+}
+
+.landingpage-image img {
+    /* vector landing page 2 2 */
+    width: 663px;
+    height: 779px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text-in-landingpage {
+    position: absolute;
+    top: 190px;
+    left: 180px;
+}
+
+.text-in-landingpage h1 {
+    /* WE HEAR WE MAKE IT HAPPEN */
+    width: 828px;
+    height: 166px;
+    /* h1/bold */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-transform: uppercase;
+    /* or 83px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+.text-in-landingpage h3 {
+    /* Website Development and Graphic Designing */
+    width: 828px;
+    height: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    /* identical to box height, or 42px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    top: 0px;
+    /* border: 1px solid black; */
+}
+
+.text-in-landingpage h4 {
+    /* We provide a complete web and app solution by providing you the esential services including branding, graphic design, UX/UI design, web development, content, social media integration, SEO, and online marketing. */
+    width: 828px;
+    height: 81px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-in-landingpage button {
+    /* connect-now button */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 56px;
+    gap: 8px;
+    width: 300px;
+    height: 67px;
+    background: linear-gradient(94.03deg, rgba(91, 111, 193, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 1px solid rgba(214, 239, 248, 0.2);
+}
+
+.text-in-landingpage button span {
+    /* Connect Now */
+    width: 140px;
+    height: 35px;
+    /* h3/semibold */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: -10px;
+    background: linear-gradient(91.97deg, #E7E8FF -13.68%, #EAFAFF 132.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid black; */
+}
+
+.text-in-landingpage button i {
+    /* Connect */
+    /* width: 25px; */
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #E7E8FF;
+    /* Inside auto layout */
+    flex: none;
+    /* order: 0; */
+    /* flex-grow: 1; */
+    /* border: 1px solid red; */
+}
+
+
+/* about us section csss property */
+
+.third-wrapper {
+    height: 728px;
+    left: 0px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.ellipse10 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -120px;
+    top: 0px;
+    background: rgba(17, 56, 238, 0.7);
+    border-radius: 50%;
+}
+
+.ellipse11 {
+    /* Ellipse 11 */
+    position: absolute;
+    width: 75px;
+    height: 73px;
+    left: 59px;
+    top: 200px;
+    background: rgba(17, 56, 238, 0.7);
+    border-radius: 50%;
+}
+
+.ellipse12 {
+    /* Ellipse 12 */
+    position: absolute;
+    width: 101px;
+    height: 91px;
+    left: 1460px;
+    top: 10px;
+    background: rgba(17, 56, 238, 0.8);
+    border-radius: 50%;
+}
+
+.content-text {
+    /* border: 1px solid green; */
+}
+
+.third-wrapper h2 {
+    /* Movement For Brand Digitization */
+    width: 435px;
+    height: 116px;
+    /* h1/semibold */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Primary/8 */
+    /* color: #091E80; */
+    /* border: 1px solid; */
+}
+
+.third-wrapper .content-text span {
+    color: #091E80;
+}
+
+.third-wrapper h4 {
+    width: 750px;
+    height: 108px;
+    /* p/regular */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* secondary/9 */
+    color: #333333;
+    /* border: 1px solid red; */
+}
+
+
+/*  */
+
+.list-container ul {
+    display: flex;
+    gap: 50px;
+}
+
+.con2 {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    position: relative;
+}
+
+.con2 .row .list1 {
+    position: absolute;
+    /* Frame 983 */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 38px 14px 38px 65px;
+    /* gap: 8px; */
+    position: absolute;
+    left: 8.88%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+    width: 35%;
+    height: 150px;
+    background: linear-gradient(92.64deg, rgba(255, 255, 255, 0.3) -0.82%, rgba(198, 198, 198, 0.018) 100%);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    /* background-color: #091E80; */
+}
+
+.bi-calendar-fill {
+    height: 30px;
+    width: 40px;
+}
+
+.con2 .row h5 {
+    /* A Timeline You Set */
+    width: 466.83px;
+    height: 26px;
+    /* h4/semibold */
+    font-family: 'Poppins', ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    /* Primary/8 */
+    color: #091E80;
+}
+
+
+/* .con2 .row i {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: -20px;
+    top: -30px;
+    border-radius: 10px;
+    background-color: #091E80;
+} */
+
+.con2 .row .list2 {
+    /* Frame 983 */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 38px 14px 38px 65px;
+    /* gap: 8px; */
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    left: 60%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+    background: linear-gradient(92.64deg, rgba(255, 255, 255, 0.3) -0.82%, rgba(198, 198, 198, 0.018) 100%);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.con2 .row .list3 {
+    /* Frame 983 */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 38px 14px 38px 65px;
+    /* gap: 8px; */
+    position: absolute;
+    left: 8.88%;
+    right: 0%;
+    top: 60%;
+    bottom: 0%;
+    width: 35%;
+    height: 150px;
+    background: linear-gradient(92.64deg, rgba(255, 255, 255, 0.3) -0.82%, rgba(198, 198, 198, 0.018) 100%);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.con2 .row .list4 {
+    /* Frame 983 */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 38px 14px 38px 65px;
+    /* gap: 8px; */
+    position: absolute;
+    left: 60%;
+    right: 0%;
+    top: 60%;
+    bottom: 0%;
+    width: 35%;
+    height: 150px;
+    background: linear-gradient(92.64deg, rgba(255, 255, 255, 0.3) -0.82%, rgba(198, 198, 198, 0.018) 100%);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.con2 .row p {
+    /* Stop feeling stuck. We only use month-to-month contracts. */
+    width: 466.83px;
+    height: 54px;
+    /* p/regular */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    display: flex;
+    align-items: center;
+    /* secondary/10 */
+    color: #222222;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stret
+}
+
+
+/* css property for the fourth container */
+
+.con4 {
+    /* Our services */
+    /* Auto layout */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 0px 42px 0px 0px;
+    gap: 88px;
+    position: relative;
+    width: 1516px;
+    height: 1032px;
+    left: 2px;
+    top: 2px;
+    /* background-color: #091E80; */
+    /* border: 1px solid; */
+}
+
+.con4 ul li {
+    list-style: none;
+}
+
+.con4 .service1 a {
+    text-decoration: none;
+}
+
+.con4 .service1 {
+    /* Get Exceptional Service for Growth */
+    width: 486px;
+    height: 150px;
+    /* h1/semibold */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+    color: #000000;
+    /* Inside auto layout */
+    /* flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0; */
+    left: 30px;
+    /* border: 1px solid; */
+}
+
+.con4 .service2 {
+    /* Our experienced team is here to help you grow your business to a new height. We guarantee to provide services at it’s best to help you convert your idea into a brand. */
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 554px;
+    height: 150px;
+    /* p/heading-paragrapg */
+    font-family: 'Roboto';
+    font-style: normal;
+    left: 50%;
+    /* or 27px */
+    /* secondary/8 */
+    color: #4D4D4D;
+    /* Inside auto layout */
+    /* flex: none;
+    order: 1;
+    flex-grow: 1; */
+    /* border: 1px solid red; */
+}
+
+.web {
+    /* services */
+    box-sizing: border-box;
+    position: relative;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px; */
+    /* margin: 0 2px; */
+    gap: 16px;
+    width: 448px;
+    height: 383px;
+    /* Primary/1 */
+    background: #F1F3FE;
+    /* White/2 */
+    border: 1px solid #c51414;
+    box-shadow: 0px 2px 2px #E6E6E6;
+    border-radius: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* border: 1px solid; */
+}
+
+.web img {
+    /* image 14 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 15%;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091E80;
+}
